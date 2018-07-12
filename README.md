@@ -1,0 +1,2 @@
+# OpenGLRenderDemo
+Mac应用，使用NSOpenGLView进行渲染，渲染过程为将采集回调的sample buffer绘制到官方例子的FBO texture上，然后最终在NSOpenGLView上进行绘制渲染
