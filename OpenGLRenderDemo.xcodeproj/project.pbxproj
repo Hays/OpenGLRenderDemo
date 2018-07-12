@@ -12,6 +12,16 @@
 		30ACF6C320F742A100F66225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6C220F742A100F66225 /* Assets.xcassets */; };
 		30ACF6C620F742A100F66225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6C420F742A100F66225 /* Main.storyboard */; };
 		30ACF6C920F742A100F66225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6C820F742A100F66225 /* main.m */; };
+		30ACF6E420F7443B00F66225 /* container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6D120F7443A00F66225 /* container.jpg */; };
+		30ACF6E520F7443B00F66225 /* Shader.vs in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6D220F7443A00F66225 /* Shader.vs */; };
+		30ACF6E620F7443B00F66225 /* Shader.frag in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6D320F7443A00F66225 /* Shader.frag */; };
+		30ACF6E720F7443B00F66225 /* OpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6D520F7443A00F66225 /* OpenGLRenderer.m */; };
+		30ACF6E820F7443B00F66225 /* imageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6D820F7443B00F66225 /* imageUtil.m */; };
+		30ACF6E920F7443B00F66225 /* sourceUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6DA20F7443B00F66225 /* sourceUtil.c */; };
+		30ACF6EA20F7443B00F66225 /* modelUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6DC20F7443B00F66225 /* modelUtil.c */; };
+		30ACF6EB20F7443B00F66225 /* vectorUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6DF20F7443B00F66225 /* vectorUtil.c */; };
+		30ACF6EC20F7443B00F66225 /* matrixUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6E120F7443B00F66225 /* matrixUtil.c */; };
+		30ACF6ED20F7443B00F66225 /* VideoGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6E320F7443B00F66225 /* VideoGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +35,24 @@
 		30ACF6C720F742A100F66225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30ACF6C820F742A100F66225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30ACF6CA20F742A100F66225 /* OpenGLRenderDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGLRenderDemo.entitlements; sourceTree = "<group>"; };
+		30ACF6D120F7443A00F66225 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
+		30ACF6D220F7443A00F66225 /* Shader.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vs; sourceTree = "<group>"; };
+		30ACF6D320F7443A00F66225 /* Shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.frag; sourceTree = "<group>"; };
+		30ACF6D420F7443A00F66225 /* VideoGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoGLView.h; sourceTree = "<group>"; };
+		30ACF6D520F7443A00F66225 /* OpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLRenderer.m; sourceTree = "<group>"; };
+		30ACF6D620F7443A00F66225 /* OpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLRenderer.h; sourceTree = "<group>"; };
+		30ACF6D820F7443B00F66225 /* imageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageUtil.m; sourceTree = "<group>"; };
+		30ACF6D920F7443B00F66225 /* glUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
+		30ACF6DA20F7443B00F66225 /* sourceUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sourceUtil.c; sourceTree = "<group>"; };
+		30ACF6DB20F7443B00F66225 /* vectorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vectorUtil.h; sourceTree = "<group>"; };
+		30ACF6DC20F7443B00F66225 /* modelUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = modelUtil.c; sourceTree = "<group>"; };
+		30ACF6DD20F7443B00F66225 /* matrixUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrixUtil.h; sourceTree = "<group>"; };
+		30ACF6DE20F7443B00F66225 /* imageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageUtil.h; sourceTree = "<group>"; };
+		30ACF6DF20F7443B00F66225 /* vectorUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vectorUtil.c; sourceTree = "<group>"; };
+		30ACF6E020F7443B00F66225 /* sourceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sourceUtil.h; sourceTree = "<group>"; };
+		30ACF6E120F7443B00F66225 /* matrixUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrixUtil.c; sourceTree = "<group>"; };
+		30ACF6E220F7443B00F66225 /* modelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelUtil.h; sourceTree = "<group>"; };
+		30ACF6E320F7443B00F66225 /* VideoGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +85,12 @@
 		30ACF6BB20F7429F00F66225 /* OpenGLRenderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				30ACF6D620F7443A00F66225 /* OpenGLRenderer.h */,
+				30ACF6D520F7443A00F66225 /* OpenGLRenderer.m */,
+				30ACF6D020F7443A00F66225 /* Shaders */,
+				30ACF6D720F7443B00F66225 /* Utility */,
+				30ACF6D420F7443A00F66225 /* VideoGLView.h */,
+				30ACF6E320F7443B00F66225 /* VideoGLView.m */,
 				30ACF6BC20F7429F00F66225 /* AppDelegate.h */,
 				30ACF6BD20F7429F00F66225 /* AppDelegate.m */,
 				30ACF6BF20F7429F00F66225 /* ViewController.h */,
@@ -68,6 +102,34 @@
 				30ACF6CA20F742A100F66225 /* OpenGLRenderDemo.entitlements */,
 			);
 			path = OpenGLRenderDemo;
+			sourceTree = "<group>";
+		};
+		30ACF6D020F7443A00F66225 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				30ACF6D120F7443A00F66225 /* container.jpg */,
+				30ACF6D220F7443A00F66225 /* Shader.vs */,
+				30ACF6D320F7443A00F66225 /* Shader.frag */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		30ACF6D720F7443B00F66225 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				30ACF6D820F7443B00F66225 /* imageUtil.m */,
+				30ACF6D920F7443B00F66225 /* glUtil.h */,
+				30ACF6DA20F7443B00F66225 /* sourceUtil.c */,
+				30ACF6DB20F7443B00F66225 /* vectorUtil.h */,
+				30ACF6DC20F7443B00F66225 /* modelUtil.c */,
+				30ACF6DD20F7443B00F66225 /* matrixUtil.h */,
+				30ACF6DE20F7443B00F66225 /* imageUtil.h */,
+				30ACF6DF20F7443B00F66225 /* vectorUtil.c */,
+				30ACF6E020F7443B00F66225 /* sourceUtil.h */,
+				30ACF6E120F7443B00F66225 /* matrixUtil.c */,
+				30ACF6E220F7443B00F66225 /* modelUtil.h */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				30ACF6C320F742A100F66225 /* Assets.xcassets in Resources */,
+				30ACF6E420F7443B00F66225 /* container.jpg in Resources */,
 				30ACF6C620F742A100F66225 /* Main.storyboard in Resources */,
+				30ACF6E620F7443B00F66225 /* Shader.frag in Resources */,
+				30ACF6E520F7443B00F66225 /* Shader.vs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +205,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				30ACF6C120F7429F00F66225 /* ViewController.m in Sources */,
+				30ACF6ED20F7443B00F66225 /* VideoGLView.m in Sources */,
+				30ACF6EA20F7443B00F66225 /* modelUtil.c in Sources */,
 				30ACF6C920F742A100F66225 /* main.m in Sources */,
 				30ACF6BE20F7429F00F66225 /* AppDelegate.m in Sources */,
+				30ACF6EC20F7443B00F66225 /* matrixUtil.c in Sources */,
+				30ACF6E720F7443B00F66225 /* OpenGLRenderer.m in Sources */,
+				30ACF6E920F7443B00F66225 /* sourceUtil.c in Sources */,
+				30ACF6EB20F7443B00F66225 /* vectorUtil.c in Sources */,
+				30ACF6E820F7443B00F66225 /* imageUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
